@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "sectionFaq",
+    "icon": "pen-fancy"
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.questions",
+      "min": 2,
+      "required": true
+    }
+  }
+}
